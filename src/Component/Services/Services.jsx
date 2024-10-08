@@ -66,13 +66,13 @@ class Services extends Component {
         <h1 className='text-center text-3xl text-primary font-bold'>
           <span className='text-secondary'>Services Offered </span>by Aquila Press
         </h1>
-        <div className='flex flex-wrap justify-center'>
+        <div className='flex flex-wrap justify-center  '>
           {this.servicesData.map((service) => (
-            <div key={service.id} className='py-2 w-80 bg-tertiary rounded-xl shadow-md m-4'>
+            <div key={service.id} className='py-2 w-80 bg-tertiary rounded-xl shadow-md m-4 hover:bg-secondary/20 '>
               {/* Image */}
               <img src={service.imgSrc} alt={service.title} className='rounded-xl' />
               <div className='mb-4 mt-4'>
-                <h1 className='text-center font-semibold text-primary text-3xl'>{service.title}</h1>
+                <h1 className='text-center font-semibold text-primary text-3xl hover:text-white' >{service.title}</h1>
                 <p className='mt-1 text-[12px] text-center'>{service.description}</p>
                 <ol className='text-center text-primary font-semibold mt-2 list-decimal list-inside space-y-2'>
                   {service.servicesList.map((subService, index) => (
