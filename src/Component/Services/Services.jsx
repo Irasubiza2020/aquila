@@ -7,7 +7,7 @@ class Services extends Component {
       id: 1,
       title: 'Branding',
       description: 'At Aquila Press, we create impactful brand identities that resonate with your audience. Our branding services include:',
-      imgSrc: '../images/br1.png',
+      imgSrc: '../images/wxz.jpg',
       servicesList: [
         'Brand Identity Development',
         'Brand Strategy',
@@ -18,7 +18,7 @@ class Services extends Component {
       id: 2,
       title: 'Design',
       description: 'We provide creative design solutions that communicate your brand message effectively. Our design services include:',
-      imgSrc: '../images/br1.png',
+      imgSrc: '../images/qsd.jpg',
       servicesList: [
         'Graphic Design',
         'Web Design',
@@ -29,7 +29,7 @@ class Services extends Component {
       id: 3,
       title: 'Marketing',
       description: 'Our marketing services help you reach your target audience effectively. We offer:',
-      imgSrc: '../images/br1.png', 
+      imgSrc: '../images/Mar.jpg', 
       servicesList: [
         'Digital Marketing',
         'Content Marketing',
@@ -40,7 +40,7 @@ class Services extends Component {
       id: 4,
       title: 'Consulting',
       description: 'We offer expert consulting services to help you navigate your business challenges. Our consulting services include:',
-      imgSrc: '../images/br1.png',
+      imgSrc: '../images/br2.png',
       servicesList: [
         'Business Strategy',
         'Market Research',
@@ -51,7 +51,7 @@ class Services extends Component {
       id: 5,
       title: 'Development',
        description: 'Our development services help you build robust and scalable applications. We offer:',
-       imgSrc: '../images/br1.png', 
+       imgSrc: '../images/web.jpg', 
         servicesList: [
         'Web Development',
         'Mobile App Development',
