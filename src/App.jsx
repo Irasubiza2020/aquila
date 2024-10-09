@@ -4,7 +4,7 @@ import Hero from './Component/Hero/Hero';
 import Project from './Component/Project/Project';
 import AboutUs from './Component/About/AboutUs';
 import Services from './Component/Services/Services';
-
+import Portfolio from './Component/Portfolio/portfolio';
 function App() {
   return(
     <>
@@ -13,6 +13,7 @@ function App() {
   <Project/>
   <AboutUs/>
   <Services/>
+  <Portfolio/>
     </>
   )
 }
