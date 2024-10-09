@@ -1,16 +1,15 @@
 import React from 'react';
- import PortfolioCard from  '../Portfolio/PortfolioCard';
- import br1 from '../../assets/images/br1.png'
+import PortfolioCard from './PortfolioCard';
+import br1 from '../../assets/images/br1.png';
 
 const Portfolio = () => {
-  
   const projects = [
     {
       id: 1,
       title: 'Branding',
-      description: ' Our branding projects highlight our expertise in creating distinctive identities that resonate with target audiences. From logo design to comprehensive brand guidelines, we ensure every element reflects your core values and vision. Explore how we help businesses stand out in a crowded marketplace.',
+      description: 'Our branding projects highlight our expertise in creating distinctive identities that resonate with target audiences. From logo design to comprehensive brand guidelines, we ensure every element reflects your core values and vision. Explore how we help businesses stand out in a crowded marketplace.',
       imgSrc: br1,
-      category: ' design',
+      category: 'design',
     },
     {
       id: 2,
@@ -20,7 +19,7 @@ const Portfolio = () => {
       category: 'Branding',
     },
     {
-      id: 2,
+      id: 3,  // Change this id to be unique
       title: 'Printing',
       description: 'In our printing section, we emphasize our commitment to quality and precision in every printed piece. From brochures and business cards to large-scale banners, we use the latest technology to ensure vibrant colors and sharp details. See how our printing solutions help bring your brand’s vision to life with tangible materials.',
       imgSrc: '/path-to-image2.jpg',
@@ -32,9 +31,9 @@ const Portfolio = () => {
   return (
     <div className='mr-16 ml-16'>
       {/* Header section */}
-      <div  >
+      <div>
         <h1 className='font-bold text-3xl mt-8 mb-2'>Portfolio</h1>
-        <p className=' w-[620px] '>
+        <p className='w-[620px]'>
           Explore the creativity and precision behind our work. From innovative designs to expertly published projects, our portfolio showcases the heart of what we do. 
           <span className='text-third font-semibold'> See how we bring ideas to life</span> and why clients trust us with their vision.
         </p>
