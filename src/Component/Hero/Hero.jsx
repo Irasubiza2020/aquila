@@ -3,7 +3,7 @@ import heroImage from '../../assets/images/p1.jpg';
 
 const Hero = () => {
   return (
-    <div
+    <div id='home'
       className=' relative min-h-[400px] sm:min-h-[650px] bg-cover bg-center flex justify-center items-center'
       style={{ backgroundImage: `url(${heroImage})` }}
     >

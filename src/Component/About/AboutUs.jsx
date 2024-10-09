@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className='mb-6'>
+    <div id='about' className='mb-6'>
       <div className='mt-16 flex flex-col md:flex-row justify-between items-center mb-4'>
         {/* Image container with responsive layout */}
         <div className='w-full max-w-[400px] sm:max-w-[500px] h-auto mx-auto md:mx-4 lg:ml-16 bg-tertiary shadow-lg rounded-md'>
