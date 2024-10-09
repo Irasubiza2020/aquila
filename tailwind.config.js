@@ -11,7 +11,7 @@ export default {
         primary: '#1b4965',    
         secondary: '#00509d',  
         tertiary: '#FAFAFA',   
-        darkBg: '#121212',     
+        third: '#0496ff',     
         darkText: '#e5e5e5',   
       },
       backgroundColor: theme => ({

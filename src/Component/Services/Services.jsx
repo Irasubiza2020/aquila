@@ -62,13 +62,13 @@ class Services extends Component {
 
   render() {
     return (
-      <div className='mb-6'>
+      <div className='mb-6  '>
         <h1 className='text-center text-3xl text-primary font-bold'>
-          <span className='text-secondary'>Services Offered </span>by Aquila Press
+          <span className='text-third'>Services Offered </span>by Aquila Press
         </h1>
         <div className='flex flex-wrap justify-center  '>
           {this.servicesData.map((service) => (
-            <div key={service.id} className='py-2 w-80 bg-tertiary rounded-xl shadow-md m-4 hover:bg-secondary/20 '>
+            <div key={service.id} className='py-2 w-80 bg-tertiary rounded-xl shadow-md m-6 hover:bg-secondary/20 '>
               {/* Image */}
               <img src={service.imgSrc} alt={service.title} className='rounded-xl' />
               <div className='mb-4 mt-4'>
@@ -80,6 +80,8 @@ class Services extends Component {
                   ))}
                 </ol>
               </div>
+               <div className='flex  justify-center items-center'> 
+              <button className=' text-center py-3 px-6 rounded-full bg-secondary  font-bold text-white'>Get Services</button></div>
             </div>
           ))}
         </div>

@@ -28,7 +28,7 @@ const Hero = () => {
 
           {/* Button */}
           <div className='mt-8'>
-            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-secondary hover:text-primary '>
+            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-green-600 hover:text-white '>
             Discover Our Expertise
             </button>
           </div>

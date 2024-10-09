@@ -59,7 +59,7 @@ const Project = () => {
   return (
     <div className='container mx-auto px-4 mt-8'>
       <h1 className='text-center font-bold text-primary text-3xl mb-14 mt-5 sm:mt-0 lg:text-5xl sm:text-4xl'>
-        Trusted By Leading <span className='text-secondary'>Companies</span>
+        Trusted By Leading <span className='text-third'>Companies</span>
       </h1>
       <p className='text-center mb-10 text-[20px]'>
         Join the list of satisfied clients who rely on us for everything from traditional printing to innovative marketing solutions and branding, bringing your business to life across all social platforms.

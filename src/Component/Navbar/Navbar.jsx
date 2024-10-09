@@ -43,7 +43,7 @@ const Navbar = () => {
               <a href='#service'>Service</a>
             </li>
             <li className='p-2 md:p-0 font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'>
-              <a href='#product'>Product</a>
+              <a href='#product'>Our Work</a>
             </li>
             <li className='p-2 md:p-0 font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'>
               <a href='#contact'>Contact</a>
