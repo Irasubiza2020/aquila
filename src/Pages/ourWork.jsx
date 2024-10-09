@@ -5,7 +5,7 @@ function OurWork() {
     <div className="mr-16 ml-16">
       {/* Our recent hands-on project */}
       <div>
-        <h1 className="font-bold text-3xl mt-8 mb-2">Recent Branding Projects</h1>
+        <h1 className="font-bold text-3xl mt-8 mb-2 text-primary">Recent Branding Projects</h1>
       </div>
 
       {/* Example of recent work content */}
