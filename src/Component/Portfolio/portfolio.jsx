@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioCard  from '../Portfolio/PortfolioCard'
+import PortfolioCard  from './PortfolioCard'
 import br1 from '../../assets/images/br1.png';
 
 const Portfolio = () => {
