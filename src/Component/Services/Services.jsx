@@ -42,8 +42,8 @@ class Services extends Component {
 
   render() {
     return (
-      <div id='services' className='mb-6'>
-        <h1 className=' text-3xl text-primary font-bold'>
+      <div  id='services' className='mb-6'>
+        <h1 className='  text-center text-3xl text-primary font-bold'>
           <span className='text-third'>Services Offered </span>by Aquila Press
         </h1>
         <div className='flex flex-wrap justify-center'>
