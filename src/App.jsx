@@ -6,6 +6,7 @@ import Services from './Component/Services/Services'
 import NavigationBar from './Component/Navbar/NavigationBar'
 import MissionVision from './Component/MissionAndVision/MissionVision'
 import Portfolio from './Component/Portfolio/portfolio'
+ import Contact from './Component/contact/Contact'
  const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ import Portfolio from './Component/Portfolio/portfolio'
      <Services/>
      <MissionVision/>
      <Portfolio/>
+     <Contact/>
       </>
   )
 }
