@@ -1,33 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Component/Navbar/Navbar';
-import Hero from './Component/Hero/Hero';
-import Project from './Component/Project/Project';
-import AboutUs from './Component/About/AboutUs';
-import Services from './Component/Services/Services';
-import OurWork from './Pages/ourWork'; 
-import Contact from './Component/contact/contact'
+import React from 'react'
+import Hero  from './Component/Hero/Hero'
+import Project  from './Component/Project/Project'
+import AboutUs from './Component/About/AboutUs'
+import Services from './Component/Services/Services'
 
-function App() {
+
+ const App = () => {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={
-          <div>
-            <Hero />
-            <Project />
-            <AboutUs />
-            <Services />
-            <Contact/>
-            
-          
-        </div>
-        } />
-        <Route path="/ourwork" element={<OurWork />} />
-      </Routes>
-    </Router>
-  );
+    <div>
+     <Hero/>
+     <Project/>
+     <AboutUs/>
+     <Services/>
+      </div>
+  )
 }
 
-export default App;
+export default App
