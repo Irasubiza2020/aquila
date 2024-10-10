@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/images/p1.jpg';
+import heroImage from '../../assets/images/bg1.png';
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       {/* Overlay */}
-      <div className='absolute inset-0 bg-primary bg-opacity-60'></div>
+      <div className='absolute inset-0 bg-primary bg-opacity-80'></div>
 
       {/* Content */}
       <div className='container relative z-10 px-4 sm:px-8 lg:px-12 py-8 sm:py-16 mt-16'>
@@ -28,7 +28,7 @@ const Hero = () => {
 
           {/* Button */}
           <div className='mt-8'>
-            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-green-600 hover:text-white '>
+            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-third hover:text-white '>
             Discover Our Expertise
             </button>
           </div>

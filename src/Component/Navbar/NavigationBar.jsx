@@ -11,7 +11,7 @@ class NavigationBar extends Component {
 
   render() {
     return (
-      <div className='flex items-center justify-between p-4 mr-16 ml-16'>
+      <div className='flex items-center justify-between p-4 mr-6 ml-6'>
         <img src='../Aquila.png' alt='logo' className='h-20' />
         <div className='ml-auto md:hidden'>
           {/* Hamburger menu button for mobile view */}

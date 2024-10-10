@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioCard = ({ project }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white shadow-lg rounded-lg p-4  transform transition duration-500 hover:scale-105 hover:shadow-lg">
       {/* Project Image */}
       <img src={project.imgSrc} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
 
