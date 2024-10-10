@@ -1,6 +1,5 @@
 import React from 'react';
 import PortfolioCard from './PortfolioCard'; // Import the new component
-
 import br1 from '../../assets/images/br1.png'; // Make sure the image path is correct
 
 const Portfolio = () => {
