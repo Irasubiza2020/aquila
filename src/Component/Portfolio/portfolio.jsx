@@ -1,6 +1,7 @@
 import React from 'react';
-import PortfolioCard  from './PortfolioCard'
-import br1 from '../../assets/images/br1.png';
+import PortfolioCard from './PortfolioCard'; // Import the new component
+
+import br1 from '../../assets/images/br1.png'; // Make sure the image path is correct
 
 const Portfolio = () => {
   const projects = [
@@ -15,14 +16,14 @@ const Portfolio = () => {
       id: 2,
       title: 'Marketing',
       description: 'Effective marketing is about more than just reaching an audience; it’s about engaging and converting them. Our marketing portfolio showcases a variety of campaigns tailored to connect with customers. Discover how we leverage data-driven strategies and creative content to elevate brands and drive results.',
-      imgSrc: '/path-to-image2.jpg',
+      imgSrc: '/path-to-image2.jpg', // Add a valid image path
       category: 'Branding',
     },
     {
-      id: 3,  // Change this id to be unique
+      id: 3,
       title: 'Printing',
       description: 'In our printing section, we emphasize our commitment to quality and precision in every printed piece. From brochures and business cards to large-scale banners, we use the latest technology to ensure vibrant colors and sharp details. See how our printing solutions help bring your brand’s vision to life with tangible materials.',
-      imgSrc: '/path-to-image2.jpg',
+      imgSrc: '/path-to-image2.jpg', // Add a valid image path
       category: 'Branding',
     },
     // Add more projects
