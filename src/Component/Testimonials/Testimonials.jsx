@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
+import profile1 from '../../assets/images/profile1.png'
+import profile2 from '../../assets/images/profile2.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -8,22 +10,22 @@ const Testimonials = () => {
     {
       name: "John Doe",
       feedback: "Aquila Press offers exceptional service and quality products! Highly recommend.",
-      image: "john.jpg" // Replace with actual image path
+      image: profile1// Replace with actual image path
     },
     {
       name: "Jane Smith",
       feedback: "The team at Aquila Press is knowledgeable and always willing to help. Love their products!",
-      image: "jane.jpg" // Replace with actual image path
+      image: profile2 // Replace with actual image path
     },
     {
       name: "Samuel Adams",
       feedback: "I had a fantastic experience shopping at Aquila Press. Fast delivery and great quality!",
-      image: "samuel.jpg" // Replace with actual image path
+      image:profile1// Replace with actual image path
     },
     {
       name: "Lisa White",
       feedback: "Amazing selection and wonderful customer service. I will definitely return!",
-      image: "lisa.jpg" // Replace with actual image path
+      image: profile1 // Replace with actual image path
     }
   ];
 
@@ -46,13 +48,13 @@ const Testimonials = () => {
       {
         breakpoint: 768, // Medium screens (e.g., tablets)
         settings: {
-          slidesToShow: 2, // 2 slides
+          slidesToShow: 1, // 2 slides
         },
       },
       {
         breakpoint: 1024, // Large screens (e.g., desktops)
         settings: {
-          slidesToShow: 3, // 3 slides
+          slidesToShow: 2, // 3 slides
         },
       },
     ],
@@ -60,7 +62,7 @@ const Testimonials = () => {
 
   return (
     <section className="bg-gray-100 py-12">
-      <h2 className="text-3xl font-bold text-center mb-6">What Our Customers Say</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-primary">What Our Customers Say</h2>
       <div className="container mx-auto">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (

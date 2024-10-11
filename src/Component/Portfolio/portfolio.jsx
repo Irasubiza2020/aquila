@@ -2,6 +2,8 @@ import React from 'react';
 import PortfolioCard from './PortfolioCard'; // Import the new component
 import br1 from '../../assets/images/br1.png'; // Make sure the image path is correct
 import bg from '../../assets/images/bg.png'
+import port from '../../assets/images/port.png'
+
 const Portfolio = () => {
   const projects = [
     {
@@ -22,7 +24,7 @@ const Portfolio = () => {
       id: 3,
       title: 'Printing',
       description: 'In our printing section, we emphasize our commitment to quality and precision in every printed piece. From brochures and business cards to large-scale banners, we use the latest technology to ensure vibrant colors and sharp details. See how our printing solutions help bring your brand’s vision to life with tangible materials.',
-      imgSrc: '/path-to-image2.jpg', // Add a valid image path
+      imgSrc: port, // Add a valid image path
       category: 'Branding',
     },
     // Add more projects
