@@ -35,7 +35,7 @@ const Promotions = () => {
             <h3 className="text-xl font-semibold mb-2">{promo.title}</h3>
             <p className="text-gray-700 mb-4">{promo.description}</p>
             <a href={promo.link} className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
-              Shop Now
+            View All
             </a>
           </div>
         ))}
