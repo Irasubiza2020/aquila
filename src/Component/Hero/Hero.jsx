@@ -28,11 +28,11 @@ const Hero = () => {
 
           {/* Button */}
           <div className='mt-8'>
-            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-third hover:text-white '>
+            <button className='font-bold bg-third text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-primary hover:text-white '>
             Discover Our Expertise
             </button>
           </div>
-          <p className='mt-16 text-white'>Start your publishing journey today !!</p>
+          <p className='mt-16 text-white font-extrabold'>Start your publishing journey today !!</p>
         </div>
       </div>
     </div>

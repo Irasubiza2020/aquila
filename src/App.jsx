@@ -11,6 +11,7 @@ import ContactUs from './Component/contact/ContactUs';
 import Promotions from './Component/Promotions/Promotions';
 import Testimonials from './Component/Testimonials/Testimonials';
 import OurWork from './Component/ourWork/ourWork'; // OurWork as a separate page
+import Footer from './Component/Footer/footer';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
               <Portfolio />
               <Testimonials />
               <ContactUs />
+              <Footer/>
             </>
           }
         />

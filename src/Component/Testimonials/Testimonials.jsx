@@ -1,5 +1,3 @@
-// src/Component/Testimonials/Testimonials.js
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -67,12 +65,14 @@ const Testimonials = () => {
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white max-w-[300px] shadow-lg rounded-lg mx-2 my-4 p-4 flex flex-col items-center">
-              <img
-                src={testimonial.image}
-                alt={testimonial.name}
-                className="w-20 h-20 rounded-full mb-3 object-cover border-2 border-blue-500"
-              />
-              <h3 className="text-lg font-semibold mb-2">{testimonial.name}</h3>
+              <div className="flex justify-center items-center mb-3">
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                  className="w-20 h-20 rounded-full object-cover border-2 border-blue-500"
+                />
+              </div>
+              <h3 className="text-lg font-semibold mb-2 text-center">{testimonial.name}</h3>
               <p className="text-gray-700 text-center text-sm">{testimonial.feedback}</p>
             </div>
           ))}
