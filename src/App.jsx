@@ -7,17 +7,21 @@ import NavigationBar from './Component/Navbar/NavigationBar'
 import MissionVision from './Component/MissionAndVision/MissionVision'
 import Portfolio from './Component/Portfolio/portfolio'
 import ContactUs from './Component/contact/ContactUs'
+import Promotions from './Component/Promotions/Promotions'
+import Testimonials from './Component/Testimonials/Testimonials'
  const App = () => {
   return (
     <>
     <NavigationBar/>
      <Hero/>
+     < Promotions/>
      <Project/>
      <AboutUs/>
      <Services/>
      <MissionVision/>
      <Portfolio/>
-      <ContactUs/>
+     <Testimonials/>
+     <ContactUs/>
       </>
   )
 }
