@@ -40,45 +40,58 @@ class Services extends Component {
     },
   ];
 
+  // Method to render all services
+  renderAllServices() {
+    return this.servicesData.map((service) => this.renderService(service));
+  }
+
+  // Method to render a single service
+  renderService(service) {
+    return (
+      <div
+        key={service.id}
+        className='w-80 bg-tertiary rounded-xl shadow-md m-6 hover:bg-secondary/20 flex flex-col justify-between'
+      >
+        {/* Image with fixed size */}
+        <img
+          src={service.imgSrc}
+          alt={service.title}
+          className='w-full h-52 object-cover rounded-t-xl'
+        />
+        <div className='flex-grow p-4'>
+          <h1 className='font-semibold text-primary text-3xl mb-2'>
+            {service.title}
+          </h1>
+          <p className='text-[12px] mb-4'>{service.description}</p>
+          <ol className='text-primary font-semibold mt-2 list-decimal list-inside space-y-2'>
+            {service.servicesList.map((subService, index) => (
+              <li key={index}>{subService}</li>
+            ))}
+          </ol>
+        </div>
+        {/* Button always at the bottom */}
+        <div className='flex justify-center p-4'>
+          <button className='py-3 px-6 rounded-full bg-secondary font-bold text-white'>
+            Get Services
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   render() {
     return (
-      <div  id='services' className='mb-6'>
-        <h1 className='  text-center text-3xl text-primary font-bold'>
+      <div id='services' className='mb-6'>
+        <h1 className='text-center text-3xl text-primary font-bold'>
           <span className='text-third'>Services Offered </span>by Aquila Press
         </h1>
         <div className='flex flex-wrap justify-center'>
-          {this.servicesData.map((service) => (
-            <div
-              key={service.id}
-              className='w-80 bg-tertiary rounded-xl shadow-md m-6 hover:bg-secondary/20 flex flex-col justify-between'
-            >
-              {/* Image with fixed size */}
-              <img
-                src={service.imgSrc}
-                alt={service.title}
-                className='w-full h-52 object-cover rounded-t-xl'
-              />
-
-              <div className='flex-grow p-4'>
-                <h1 className=' font-semibold text-primary text-3xl mb-2'>
-                  {service.title}
-                </h1>
-                <p className=' text-[12px] mb-4'>{service.description}</p>
-                <ol className=' text-primary font-semibold mt-2 list-decimal list-inside space-y-2'>
-                  {service.servicesList.map((subService, index) => (
-                    <li key={index}>{subService}</li>
-                  ))}
-                </ol>
-              </div>
-
-              {/* Button always at the bottom */}
-              <div className='flex justify-center p-4'>
-                <button className='py-3 px-6 rounded-full bg-secondary font-bold text-white'>
-                  Get Services
-                </button>
-              </div>
-            </div>
-          ))}
+          {/* Display only the first three services on the home page */}
+          {this.props.isHomePage ? (
+            this.servicesData.slice(0, 3).map((service) => this.renderService(service))
+          ) : (
+            this.renderAllServices() // Display all services on the dedicated services page
+          )}
         </div>
       </div>
     );

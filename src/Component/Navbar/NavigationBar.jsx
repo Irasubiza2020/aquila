@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 class NavigationBar extends Component {
   state = {
@@ -21,12 +22,22 @@ class NavigationBar extends Component {
         </div>
         <nav className={`md:flex ${this.state.isOpen ? 'block' : 'hidden'} md:block`}>
           {/* Navigation links */}
-          <ol className='flex flex-col md:flex-row gap-6 text-lg md:text-xl text-primary '>
-            <li className=' hover:text-third '><a href='#'>Home</a></li>
-            <li  className=' hover:text-third'><a href='#'>About Us</a></li>
-            <li className=' hover:text-third'><a href='#'>Services</a></li>
-            <li className='hover:text-third'><a href='#'>Our Work</a></li>
-            <li className='hover:text-third'><a href='#'>Contact</a></li>
+          <ol className='flex flex-col md:flex-row gap-6 text-lg md:text-xl text-primary'>
+            <li className='hover:text-third'>
+              <Link to="/">Home</Link>
+            </li>
+            <li className='hover:text-third'>
+              <Link to="/about-us">About Us</Link>
+            </li>
+            <li className='hover:text-third'>
+              <Link to="/services">Services</Link>
+            </li>
+            <li className='hover:text-third'>
+              <Link to="/our-work">Our Work</Link>
+            </li>
+            <li className='hover:text-third'>
+              <Link to="/contact-us">Contact</Link>
+            </li>
           </ol>
         </nav>
       </div>
