@@ -28,7 +28,7 @@ const Footer = () => {
                 <CiLinkedin className='text-2xl' />
               </div>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/aquila_press/profilecard/?igsh=bmJmMmJycThkbGg4" target="_blank" rel="noopener noreferrer">
               <div className='flex items-center justify-center w-10 h-10 rounded-full hover:text-black hover:bg-secondary text-primary'>
                 <FaInstagram className='text-2xl' />
               </div>
@@ -67,7 +67,7 @@ const Footer = () => {
           <ul className='space-y-2'>
             <li className='font-bold'> Location:<span className='font-normal'>Kigali,</span> <span className='text-primary'> Rwanda</span> </li>
             <li><a href="mailto:aquilapress@info.com" className='font-bold'>Email: <span className='font-normal'>aquilapress@info.com</span></a></li>
-            <li><a href="tel:+250787954412" className='font-bold'>Phone:<span className='font-normal'>+250787954412</span></a></li>
+            <li><a href="tel:+250787954412" className='font-bold'>Phone:<span className='font-normal'>+250732527666</span></a></li>
             <li><a href="#" className='font-semibold text-primary'>View Location on GoogleMap</a></li>
           </ul>
         </div>

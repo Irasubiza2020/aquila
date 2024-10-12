@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_j7nalsl',        // connection to emailjs 
-        'template_cem9ira',     
+        'service_9zsess6',        // connection to emailjs 
+        'template_iz82vq9',     
         form.current,
-        'HUf49LkCQwu-O1q16'       
+        '_e3vyYXfXyEkWlu3i'       
       )
       .then(
         () => {
@@ -85,7 +85,7 @@ const Contact = () => {
                 <MdOutlineEmail size={40} className='text-primary' />
                 <div className='text-left'>
                   <h1 className='font-bold text-primary'>E-mail</h1>
-                  <h2 className='text-primary'>godfreytumusime2@gmail.com</h2>
+                  <h2 className='text-primary'>aquilapressrw@gmail.com</h2>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
                 <MdAddIcCall size={40} className='text-primary' />
                 <div className='text-left'>
                   <h1 className='font-bold text-primary'>Phone</h1>
-                  <h2 className='text-primary'>+250788287674</h2>
+                  <h2 className='text-primary'>+250732527666</h2>
                 </div>
               </div>
             </div>
