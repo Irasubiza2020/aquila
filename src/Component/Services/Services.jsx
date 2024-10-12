@@ -8,7 +8,7 @@ class Services extends Component {
       id: 1,
       title: 'Branding',
       description: 'At Aquila Press, we create impactful brand identities that resonate with your audience. Our branding services include:',
-      imgSrc: '../images/wxz.jpg',
+      imgSrc: '../images/web21.png',
       servicesList: ['Brand Identity Development', 'Brand Strategy', 'Rebranding'],
     },
     {
