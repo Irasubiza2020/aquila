@@ -74,7 +74,7 @@ const Contact = () => {
         {/* Message and stats section */}
         <div className='w-full lg:w-1/2 flex flex-col items-center lg:items-start lg:pl-8 mt-6'>
           <img 
-            src='../images/ctus.jpg' 
+            src='../images/web21.png' 
             className='rounded-xl mt-6 w-full h-auto' 
             alt="Contact Us" 
           />

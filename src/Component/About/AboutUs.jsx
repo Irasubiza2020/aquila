@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className='mt-16 flex flex-col md:flex-row justify-between items-center mb-4'>
         {/* Image container with responsive layout */}
         <div className='w-full max-w-[400px] sm:max-w-[500px] h-auto mx-auto md:mx-4 lg:ml-16 bg-tertiary shadow-lg rounded-md'>
-          <img src='../ab.jpg' alt='About Aquila' className='w-full h-auto rounded-md' />
+          <img src='../images/web24.png' alt='About Aquila' className='w-full h-auto rounded-md' />
         </div>
 
         {/* Text section */}

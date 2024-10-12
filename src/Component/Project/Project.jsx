@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import Comp1 from '../../assets/images/Comp1.png';
 import ab1 from '../../assets/images/ab1.jpg';
 import ab2 from '../../assets/images/ab2.png';
+import  web25 from '../../assets/images/web25.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -25,6 +26,12 @@ const CardData = () => [
     img: ab2,
     title: 'Hôpital La Croix du Sud',
     disc: 'Branding',
+  },
+  {
+    id: 4,
+    img:  web25,
+    title: 'Sabi Babe',
+    disc: 'Logo design ',
   },
 ];
 

@@ -15,7 +15,7 @@ class Services extends Component {
       id: 2,
       title: 'Design',
       description: 'We provide creative design solutions that communicate your brand message effectively. Our design services include:',
-      imgSrc: '../images/qsd.jpg',
+      imgSrc: '../images/web22.png',
       servicesList: ['Graphic Design', 'Web Design', 'Print Design'],
     },
     {
