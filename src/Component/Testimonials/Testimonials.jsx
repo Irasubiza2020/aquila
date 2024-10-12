@@ -22,11 +22,7 @@ const Testimonials = () => {
       feedback: "I had a fantastic experience shopping at Aquila Press. Fast delivery and great quality!",
       image:profile1// Replace with actual image path
     },
-    {
-      name: "Lisa White",
-      feedback: "Amazing selection and wonderful customer service. I will definitely return!",
-      image: profile1 // Replace with actual image path
-    }
+
   ];
 
   // Slider settings

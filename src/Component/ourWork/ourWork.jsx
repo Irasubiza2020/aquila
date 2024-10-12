@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import ProjectImages from '../../assets/images/ab2.png'; // Import image
-
-class OurWork extends Component {
+import web23 from '../../assets/images/web23.png'
+import web22  from '../../assets/images/web22.png'
+import web21 from '../../assets/images/web21.png'
+import web25 from '../../assets/images/web25.png'
+class OurWork extends Component {  
   // Array of image sources (you can add more images here)
-  images = [ProjectImages, ProjectImages, ProjectImages, ProjectImages];
+  images = [ProjectImages, web23, web22, web21 , web25];
 
   render() {
     return (
