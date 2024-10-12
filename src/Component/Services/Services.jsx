@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 
 class Services extends Component {
   // Array of services
@@ -71,9 +72,11 @@ class Services extends Component {
         </div>
         {/* Button always at the bottom */}
         <div className='flex justify-center p-4'>
-          <button className='py-3 px-6 rounded-full bg-secondary font-bold text-white'>
-            Get Services
-          </button>
+            <a href='#Contact'>
+            <button className='py-3 px-6 rounded-full bg-secondary font-bold text-white'>
+              Get Services
+            </button>
+             </a>
         </div>
       </div>
     );

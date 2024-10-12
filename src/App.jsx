@@ -24,7 +24,7 @@ const App = () => {
           element={
             <>
               <Hero />
-              <Promotions />
+             {/*<Promotions />*/} 
               <Project />
               <AboutUs />
               <Services isHomePage={true} /> {/* Pass prop to show only 3 services */}
