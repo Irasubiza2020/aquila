@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className='mt-6 px-4 sm:px-6 lg:px-16'>
       {/* Heading */}
-      <h1 id='Contact' className='font-bold text-3xl mt-8 mb-2 text-center text-primary'>
+      <h1 id='Contact' className='text-3xl mt-8 mb-2 text-center text-primary'>
         Contact Us
       </h1>
       <p className='w-full sm:w-[80%] md:w-[70%] lg:w-[620px] mx-auto mt-3'>
@@ -57,7 +57,7 @@ const Contact = () => {
             required 
           />
 
-          <label className="block mb-2 text-lg font-semibold text-primary">Message</label>
+          <label className="block mb-2 text-lg  text-primary">Message</label>
           <textarea 
             name="message" 
             className="border border-primary rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-secondary w-full" 
@@ -84,7 +84,7 @@ const Contact = () => {
               <div className='flex items-center space-x-4'>
                 <MdOutlineEmail size={40} className='text-primary' />
                 <div className='text-left'>
-                  <h1 className='font-bold text-primary'>E-mail</h1>
+                  <h1 className=' text-primary'>E-mail</h1>
                   <h2 className='text-primary'>aquilapressrw@gmail.com</h2>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Contact = () => {
               <div className='flex items-center space-x-4'>
                 <MdAddIcCall size={40} className='text-primary' />
                 <div className='text-left'>
-                  <h1 className='font-bold text-primary'>Phone</h1>
+                  <h1 className=' text-primary'>Phone</h1>
                   <h2 className='text-primary'>+250732527666</h2>
                 </div>
               </div>

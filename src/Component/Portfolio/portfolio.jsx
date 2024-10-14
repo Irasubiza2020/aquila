@@ -34,7 +34,7 @@ const Portfolio = () => {
     <div className='mr-16 ml-16'>
       {/* Header section */}
       <div>
-        <h1 className='font-bold text-3xl mt-8 mb-2 text-center text-primary'>Portfolio</h1>
+        <h1 className=' text-3xl mt-8 mb-2 text-center text-primary'>Portfolio</h1>
         <p className='w-full sm:w-[80%] md:w-[70%] lg:w-[620px] mx-auto'>
   Explore the creativity and precision behind our work. From innovative designs to expertly published projects, our portfolio showcases the heart of what we do.
   <span className='text-third font-semibold'> See how we bring ideas to life</span> and why clients trust us with their vision.

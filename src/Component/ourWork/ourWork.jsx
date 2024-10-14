@@ -9,6 +9,7 @@ class OurWork extends Component {
   images = [ProjectImages, web23, web22, web21 , web25];
 
   render() {
+    
     return (
       <div className='px-4 py-6b mr-6'>
         <h1 className='text-primary text-center text-2xl md:text-3xl mb-4'>

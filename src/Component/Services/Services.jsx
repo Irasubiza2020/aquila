@@ -60,11 +60,11 @@ class Services extends Component {
           className='w-full h-52 object-cover rounded-t-xl'
         />
         <div className='flex-grow p-4'>
-          <h1 className='font-semibold text-primary text-3xl mb-2'>
+          <h1 className=' text-primary text-3xl mb-2'>
             {service.title}
           </h1>
           <p className='text-[12px] mb-4'>{service.description}</p>
-          <ol className='text-primary font-semibold mt-2 list-decimal list-inside space-y-2'>
+          <ol className='text-primary  mt-2 list-decimal list-inside space-y-2'>
             {service.servicesList.map((subService, index) => (
               <li key={index}>{subService}</li>
             ))}
@@ -85,7 +85,7 @@ class Services extends Component {
   render() {
     return (
       <div id='services' className='mb-6'>
-        <h1 className='text-center text-3xl text-primary font-bold'>
+        <h1 className='text-center text-3xl text-primary '>
           <span className='text-third'>Services Offered </span>by Aquila Press
         </h1>
         <div className='flex flex-wrap justify-center'>

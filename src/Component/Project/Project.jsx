@@ -65,7 +65,7 @@ const Project = () => {
 
   return (
     <div className='container mx-auto px-4 mt-8'>
-      <h1 className='text-center font-bold text-primary text-3xl mb-14 mt-5 sm:mt-0 lg:text-5xl sm:text-4xl'>
+      <h1 className='text-center  text-primary text-3xl mb-14 mt-5 sm:mt-0 lg:text-5xl sm:text-4xl'>
         Trusted By Leading <span className='text-third'>Companies</span>
       </h1>
       <p className='text-center mb-10 text-[20px]'>
@@ -85,7 +85,7 @@ const Project = () => {
               {/* Overlay section */}
               <div className='absolute left-0 top-0 w-full h-full bg-primary/70 opacity-0 group-hover:opacity-100 p-4 backdrop-blur-sm duration-500 flex flex-col items-center justify-center'>
                 {/* Title */}
-                <h2 className='text-white font-bold text-lg text-center mb-2'>
+                <h2 className='text-white text-lg text-center mb-2'>
                   {title}
                 </h2>
 

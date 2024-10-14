@@ -58,7 +58,7 @@ const Testimonials = () => {
 
   return (
     <section className="bg-gray-100 py-12">
-      <h2 className="text-3xl font-bold text-center mb-6 text-primary">What Our Customers Say</h2>
+      <h2 className="text-3xl  text-center mb-6 text-primary">What Our Customers Say</h2>
       <div className="container mx-auto">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (

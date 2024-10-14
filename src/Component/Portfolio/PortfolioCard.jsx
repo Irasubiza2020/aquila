@@ -7,13 +7,13 @@ const PortfolioCard = ({ project }) => {
       <img src={project.imgSrc} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
 
       {/* Project Title */}
-      <h2 className="mt-4 text-xl font-bold text-secondary">{project.title}</h2>
+      <h2 className="mt-4 text-xl  text-secondary">{project.title}</h2>
 
       {/* Project Description */}
       <p className="mt-2 text-primary">{project.description}</p>
 
       {/* Styled Button */}
-      <button className="mt-3 px-6 py-2 bg-secondary text-white font-semibold rounded-lg hover:bg-third hover:scale-105 transition-transform duration-300">
+      <button className="mt-3 px-6 py-2 bg-secondary text-white  rounded-lg hover:bg-third hover:scale-105 transition-transform duration-300">
         View Project
       </button>
     </div>
