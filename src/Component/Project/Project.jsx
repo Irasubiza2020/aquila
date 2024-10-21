@@ -2,7 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import Comp1 from '../../assets/images/Comp1.png';
 import ab1 from '../../assets/images/ab1.jpg';
-import ab2 from '../../assets/images/ab2.png';
+import fb1 from '../../assets/images/fb1.jpeg';
+import fb2 from '../../assets/images/fb2.jpeg';
+import fb3 from '../../assets/images/fb3.jpeg';
 import  web25 from '../../assets/images/web25.png'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -23,8 +25,8 @@ const CardData = () => [
   },
   {
     id: 3,
-    img: ab2,
-    title: 'Hôpital La Croix du Sud',
+    img: fb1,
+    title: 'Logo design ',
     disc: 'Branding',
   },
   {
@@ -33,7 +35,20 @@ const CardData = () => [
     title: 'Sabi Babe',
     disc: 'Logo design ',
   },
+  {
+    id: 5,
+    img:  fb2,
+    title: 'Droom coffee shop',
+    disc: 'Logo design ',
+  },
+  {
+    id: 6,
+    img:  fb3,
+    title: ' Amikus logo design',
+    disc: 'Logo design ',
+  },
 ];
+
 
 const Project = () => {
   const cards = CardData();
@@ -43,7 +58,7 @@ const Project = () => {
     dots: true,
     infinite: false,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 2000,
     rtl: true,
