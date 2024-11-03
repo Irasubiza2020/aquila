@@ -3,15 +3,16 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from './Component/Hero/Hero';
 import Project from './Component/Project/Project';
 import AboutUs from './Component/About/AboutUs';
-import Services from './Component/Services/Services'; // Import Services component
+import Services from './Component/Services/Services'; 
 import NavigationBar from './Component/Navbar/NavigationBar';
 import MissionVision from './Component/MissionAndVision/MissionVision';
 import Portfolio from './Component/Portfolio/portfolio';
 import ContactUs from './Component/contact/ContactUs';
 import Promotions from './Component/Promotions/Promotions';
 import Testimonials from './Component/Testimonials/Testimonials';
-import OurWork from './Component/ourWork/ourWork'; // OurWork as a separate page
+import OurWork from './Component/ourWork/ourWork'; 
 import Footer from './Component/Footer/Footer';
+import EventPlanning from './Component/EventPlanning/EventPlanning';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <>
               <Hero />
            {/* <Promotions />*/}
+           <EventPlanning/>
               <Project />
               <AboutUs />
               <Services isHomePage={true} /> {/* Pass prop to show only 3 services */}
