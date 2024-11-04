@@ -2,10 +2,11 @@ import React from 'react';
 import image1 from '../../assets/images/image1.jpg';
 import image2 from '../../assets/images/image2.jpg';
 import image3 from '../../assets/images/image3.jpg';
+import image4 from '../../assets/images/image4.jpg';
 // image4 removed
 
 // Updated images array without image4
-const images = [image1, image3, image2];
+const images = [image1, image3, image2,image4];
 
 const EventPlanning = () => {
   return (
@@ -18,7 +19,7 @@ const EventPlanning = () => {
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8">
+      <div className="relative z-10 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 ml-16">
 
         {/* Text Section with Decorative Image */}
         <div className="relative flex flex-col items-center md:items-start w-full max-w-[400px] sm:max-w-[550px] bg-third/50 p-6 rounded-lg text-white mx-4 md:mx-0">
