@@ -1,5 +1,6 @@
 import React from 'react';
-import heroImage from '../../assets/images/event-Planning.jpg';
+import eventPlanningImage from "../../assets/images/event-Planning.jpg";
+
 import image1 from '../../assets/images/image1.jpg';
 import image2 from '../../assets/images/image2.jpg';
 import image3 from '../../assets/images/image3.jpg';
@@ -12,7 +13,7 @@ const EventPlanning = () => {
     <div
       id="about"
       className="mb-6 p-4 sm:p-8 bg-cover bg-center relative min-h-[500px]"
-      style={{ backgroundImage: `url(${heroImage})` }}
+      style={{ backgroundImage: `url(${eventPlanningImage})` }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
