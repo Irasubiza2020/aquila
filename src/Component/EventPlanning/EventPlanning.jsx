@@ -1,18 +1,18 @@
 import React from 'react';
-import eventPlanningImage from "../../assets/images/Planning.jpg";
 import image1 from '../../assets/images/image1.jpg';
 import image2 from '../../assets/images/image2.jpg';
 import image3 from '../../assets/images/image3.jpg';
-import image4 from '../../assets/images/image4.jpg';
+// image4 removed
 
-const images = [image1, image4, image3, image2];
+// Updated images array without image4
+const images = [image1, image3, image2];
 
 const EventPlanning = () => {
   return (
     <div
       id="about"
       className="mb-6 p-4 sm:p-8 bg-cover bg-center relative min-h-[500px]"
-      style={{ backgroundImage: `url(${eventPlanningImage})` }}
+      // Removed the background image style
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
