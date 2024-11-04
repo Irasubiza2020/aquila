@@ -24,15 +24,15 @@ const EventPlanning = () => {
         <div className="relative flex flex-col items-center md:items-start w-full max-w-[400px] sm:max-w-[550px] bg-third/50 p-6 rounded-lg text-white mx-4 md:mx-0">
           <h1 className="text-center md:text-left text-white text-3xl mb-4 font-semibold">Aquila Press - Your Event Planning Partner</h1>
           <p className="text-[16px] sm:text-[17px] text-center md:text-left">
-          At Aquila Press, we bring your events to life with a full suite of planning services tailored to your unique needs. From unforgettable weddings and seamless corporate gatherings to vibrant social celebrations and impactful product launches, our expert team ensures every detail is meticulously executed. With themed events that dazzle and effective event marketing strategies, we promise an experience that captivates and engages. Let us transform your vision into reality—because every great event deserves a perfect planner!
+            At Aquila Press, we bring your events to life with a full suite of planning services tailored to your unique needs. From unforgettable weddings and seamless corporate gatherings to vibrant social celebrations and impactful product launches, our expert team ensures every detail is meticulously executed. With themed events that dazzle and effective event marketing strategies, we promise an experience that captivates and engages. Let us transform your vision into reality—because every great event deserves a perfect planner!
           </p>
           <div className='flex justify-center p-4'>
             <a href='#Contact'>
-            <button className='py-3 px-6 rounded-full bg-white font-bold text-third'>
-          Make My Event Unforgettable
-            </button>
-             </a>
-        </div>
+              <button className='py-3 px-6 rounded-full bg-white font-bold text-third'>
+                Make My Event Unforgettable
+              </button>
+            </a>
+          </div>
         </div>
 
         {/* Image Gallery */}
@@ -47,7 +47,6 @@ const EventPlanning = () => {
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );
