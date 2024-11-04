@@ -1,5 +1,5 @@
 import React from 'react';
-import eventPlanningImage from "../../assets/images/event-Planning.jpg";
+import eventPlanningImage from "../../assets/images/Planning.jpg";
 
 import image1 from '../../assets/images/image1.jpg';
 import image2 from '../../assets/images/image2.jpg';
